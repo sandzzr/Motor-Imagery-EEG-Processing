@@ -1,0 +1,123 @@
+time_seconds,label
+0.0,Run-1 Start
+4.0,Relaxed State
+8.0,Left Hand MI
+15.0,Relaxed State
+19.0,Right Hand MI
+26.0,Relaxed State
+30.0,Both Legs MI
+37.0,Relaxed State
+41.0,Both Hands MI
+48.0,Relaxed State
+52.0,Left Hand MI
+59.0,Relaxed State
+63.0,Both Hands MI
+70.0,Relaxed State
+74.0,Right Hand MI
+81.0,Relaxed State
+85.0,Both Legs MI
+92.0,Relaxed State
+96.0,Right Hand MI
+103.0,Relaxed State
+107.0,Both Legs MI
+114.0,Relaxed State
+118.0,Left Hand MI
+125.0,Relaxed State
+129.0,Both Hands MI
+136.0,Relaxed State
+140.0,Left Hand MI
+147.0,Relaxed State
+151.0,Right Hand MI
+158.0,Relaxed State
+162.0,Both Legs MI
+169.0,Relaxed State
+173.0,Both Hands MI
+180.0,Relaxed State
+184.0,Left Hand MI
+191.0,Relaxed State
+195.0,Both Hands MI
+202.0,Relaxed State
+206.0,Right Hand MI
+213.0,Relaxed State
+217.0,Both Legs MI
+224.0,Relaxed State
+228.0,Right Hand MI
+235.0,Relaxed State
+239.0,Both Legs MI
+246.0,Relaxed State
+250.0,Left Hand MI
+257.0,Relaxed State
+261.0,Both Hands MI
+268.0,Relaxed State
+272.0,Left Hand MI
+279.0,Relaxed State
+283.0,Right Hand MI
+290.0,Relaxed State
+294.0,Both Legs MI
+301.0,Relaxed State
+305.0,Both Hands MI
+312.0,Relaxed State
+316.0,Left Hand MI
+323.0,Relaxed State
+327.0,Both Hands MI
+334.0,Relaxed State
+338.0,Right Hand MI
+345.0,Relaxed State
+349.0,Both Legs MI
+356.0,Relaxed State
+360.0,Right Hand MI
+367.0,Relaxed State
+371.0,Both Legs MI
+378.0,Relaxed State
+382.0,Left Hand MI
+389.0,Relaxed State
+393.0,Both Hands MI
+400.0,Relaxed State
+404.0,Left Hand MI
+411.0,Relaxed State
+415.0,Right Hand MI
+422.0,Relaxed State
+426.0,Both Legs MI
+433.0,Relaxed State
+437.0,Both Hands MI
+444.0,Relaxed State
+448.0,Left Hand MI
+455.0,Relaxed State
+459.0,Both Hands MI
+466.0,Relaxed State
+470.0,Right Hand MI
+477.0,Relaxed State
+481.0,Both Legs MI
+488.0,Relaxed State
+492.0,Right Hand MI
+499.0,Relaxed State
+503.0,Both Legs MI
+510.0,Relaxed State
+514.0,Left Hand MI
+521.0,Relaxed State
+525.0,Both Hands MI
+532.0,Relaxed State
+536.0,Left Hand MI
+543.0,Relaxed State
+547.0,Right Hand MI
+554.0,Relaxed State
+558.0,Both Legs MI
+565.0,Relaxed State
+569.0,Both Hands MI
+576.0,Relaxed State
+580.0,Left Hand MI
+587.0,Relaxed State
+591.0,Both Hands MI
+598.0,Relaxed State
+602.0,Right Hand MI
+609.0,Relaxed State
+613.0,Both Legs MI
+620.0,Relaxed State
+624.0,Right Hand MI
+631.0,Relaxed State
+635.0,Both Legs MI
+642.0,Relaxed State
+646.0,Left Hand MI
+653.0,Relaxed State
+657.0,Both Hands MI
+664.0,Run-1 End

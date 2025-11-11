@@ -8,29 +8,35 @@ This repository presents a complete pipeline for **Motor Imagery EEG (MI-EEG) si
 
 ## 📁 Repository Structure
 
-* **`models/`**
-  Contains implementation of the **EEGNet** model in PyTorch.
+* **`Data/`**
+  Contains all stages of EEG data used in this project.
 
-  * `EEGNet.py` – core CNN model used for MI-EEG classification
+  * `Originally_Collected_MI_EEG_data/` – Raw EEG recordings from **OpenBCI Ultracortex Mark IV** headset
+  * `DC_offset_removed_MI_EEG_data/` – DC-corrected EEG signals after offset removal
+  * `Timestamps_Modified_MI_EEG_data/` – Time-synchronized and resampled EEG data (final format used for training)
+  * `marker.ods` – Event marker annotations aligned with motor imagery task cues
 
-* **`datasets/`**
+* **`Scripts/`**
+  Includes all Python scripts for data acquisition, preprocessing, and model execution.
 
-  * `physionet/` – preprocessed PhysioNet EEG Motor Imagery dataset
-  * `primary/` – locally recorded EEG data (24 subjects, 11-minute sessions, 16 channels, 125 Hz)
+  * `Record_EEG_with_Markers.py` – Records EEG data with real-time markers using **BrainFlow**
+  * `model_training_testing.py` – Trains and evaluates **EEGNet** on both PhysioNet and primary EEG datasets
 
-* **`notebooks/`**
+* **`Docs/`**
+  Contains all documentation and project materials.
 
-  * `preprocessing.ipynb` – EEG preprocessing pipeline (filtering, CAR, epoching)
-  * `training_physionet.ipynb` – model training and evaluation on PhysioNet data
-  * `training_primary.ipynb` – training and evaluation using primary dataset
+  * Thesis report, presentation slides, and **OHBM** poster for publication reference
 
-* **`results/`**
-  Includes model performance metrics and visualizations:
+* **`Media/`**
+  Stores visual and multimedia resources.
 
-  * Confusion matrices
-  * Accuracy and F1-scores
-  * Comparison charts for PhysioNet and primary datasets
+  * `Time_corrected_elbow_knee_mi_cue.mp4` – Sample motor imagery cue video synchronized with EEG timestamps
 
+* **`README.md`** – Project overview and usage guide
+
+* **`requirements.txt`** – Python dependencies for reproducing results
+
+* **`LICENSE`** – Open-source license information
 ---
 
 ## ⚙️ Key Details
